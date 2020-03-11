@@ -11,14 +11,14 @@ Feature: user should not be able to login successfully with invalid credential
     Then user should able to see "<ErrorMessage>"
     Examples:
       | invalid_username | invalid_password | ErrorMessage             |
-      | Admin            | admin132         | Invalid credentials 1     |
-      | admin            | admin321         | Invalid credentials 1     |
-      | admin            | Admin123         | Invalid credentials   1   |
-      | Admin            | Admin1234        | Invalid credentials    1  |
-      |                  | admin123         | Username cannot be empty1 |
-      | Admin            |                  | Password cannot be empty1 |
-      |                  | Admin123         | Username cannot be empty1 |
-      | admin            |                  | Password cannot be empty1 |
-      |                  |                  | Username cannot be empty1 |
+      | Admin            | admin132         | Invalid credentials      |
+      | admin            | admin321         | Invalid credentials      |
+      | admin            | Admin123         | Invalid credentials      |
+      | Admin            | Admin1234        | Invalid credentials      |
+      |                  | admin123         | Username cannot be empty |
+      | Admin            |                  | Password cannot be empty |
+      |                  | Admin123         | Username cannot be empty |
+      | admin            |                  | Password cannot be empty |
+      |                  |                  | Username cannot be empty |
 
 

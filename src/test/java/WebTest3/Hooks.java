@@ -17,11 +17,11 @@ import static com.sun.deploy.cache.Cache.copyFile;
 
 public class Hooks extends Utils{
 
-    private String timestamp = new SimpleDateFormat("yyyy.MM.DD.HH.MM.SS").format(new Date( ));
+    private String timestamp = new SimpleDateFormat("yyyy.MM.DD.Hh.MM.SS").format(new Date( ));
     BrowserSelector browserSelector = new BrowserSelector();
 
     @Before
-    public void openBrowser() { browserSelector.setupBrowser();}
+    public void openBrowser(){ browserSelector.setupBrowser(); }
 
     @After
     public void closeBrowser (Scenario scenario) throws IOException
@@ -29,22 +29,23 @@ public class Hooks extends Utils{
         if (scenario.isFailed( ))
         {
             String screenshotName = scenario.getName().replaceAll("[.,:;?!]", "") + timestamp + ".png";
-            try {
+            try
+            {
                 //This takes a screenshot from the driver at save it to the specified location
                 File sourcePath = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-                //Building up the destination path for the screenshot to save
-                // Also make sure to create a folder 'screenshots' with in the cucumber-report folder
-                File destinationPath = new File(System.getProperty("user.dir") + "target/Destination/screenshot" + screenshotName);
-                //copy taken screenshot from source location to destination location
-                copyFile(sourcePath, destinationPath);
-                scenario.write("!!!!....Scenario Failed....!!!! Please see attached screenshot for the error/issue");
-                // Attach the screenshot to our report
-                // Scenario.embed (((TakeScreenshot)driver).getScreenshotAs(outputType.BYTES), "image/png")
-                scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png");
-            }
-            catch (IOException e)
-            {
 
+                //Building up the destination path for the screenshot to save
+                //Also make sure to create a folder 'screenshots' with in the cucumber-report folder
+                File destinationPath = new File(System.getProperty("user.dir") + "/target/Destination/screenshot/" + screenshotName);
+
+                //Copy taken screenshot from source location to destination location
+                copyFile(sourcePath, destinationPath);
+                scenario.write(" * * * * Scenario Failed * * * *  Please see attached screenshot for the error/issue");
+
+                //attach the screenshot to our report
+                //scenario.embed(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES), "image/png");
+                scenario.embed(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES),"image/png");
+            }catch (IOException e) {
             }
         }
         driver.quit();

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f346495f-c997-4706-8c07-6be9e4de35d8" name="Default Changelist" comment="" />
+    <list default="true" id="f346495f-c997-4706-8c07-6be9e4de35d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/BrowserDriver/IEDriverServer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest3/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest3/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest3/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest3/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest3/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest3/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest3/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest3/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest3/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest3/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest3/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest3/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/testconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/invalidscenario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/invalidscenario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Destination/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestData/testconfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestData/testconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebTest3/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebTest3/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/invalidscenario.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/invalidscenario.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +30,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,14 +49,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MultiWebExercise" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/BrowserDriver" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="WebTest3" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kash\IdeaProjects\ScenarioOutline\src\test\resources\BrowserDriver" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="WebTest3" />
     </key>
   </component>
   <component name="RunManager">
@@ -84,39 +104,43 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583800962020" />
+    <state x="326" y="0" key="CommitChangelistDialog2" timestamp="1583893469016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="326" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583893469016" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1583805244687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583805244687" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583710399265" />
-    <state width="1322" height="173" key="GridCell.Tab.0.bottom" timestamp="1583853605969">
+    <state width="1322" height="462" key="GridCell.Tab.0.bottom" timestamp="1583891668743">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583807190231" />
-    <state width="1322" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583853605969" />
-    <state width="1322" height="173" key="GridCell.Tab.0.center" timestamp="1583853605969">
+    <state width="1322" height="462" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583891668743" />
+    <state width="1322" height="462" key="GridCell.Tab.0.center" timestamp="1583891668742">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583807190231" />
-    <state width="1322" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583853605969" />
-    <state width="1322" height="173" key="GridCell.Tab.0.left" timestamp="1583853605969">
+    <state width="1322" height="462" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583891668742" />
+    <state width="1322" height="462" key="GridCell.Tab.0.left" timestamp="1583891668742">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583807190231" />
-    <state width="1322" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583853605969" />
-    <state width="1322" height="173" key="GridCell.Tab.0.right" timestamp="1583853605969">
+    <state width="1322" height="462" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583891668742" />
+    <state width="1322" height="462" key="GridCell.Tab.0.right" timestamp="1583891668742">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1322" height="215" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583807190231" />
-    <state width="1322" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583853605969" />
+    <state width="1322" height="462" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583891668742" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1583800751599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1583800751599" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1583710645816">
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1583893407252">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583710645816" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583893407252" />
     <state x="435" y="284" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1583802885194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
